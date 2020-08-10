@@ -1,4 +1,4 @@
-package com.example.pagegallery;
+package com.example.Home_step1;
 
 import android.view.LayoutInflater;
 import android.view.View;

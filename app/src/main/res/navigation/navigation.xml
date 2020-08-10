@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/galleryFragment"
-        android:name="com.example.pagegallery.GalleryFragment"
+        android:name="com.example.Home_step1.GalleryFragment"
         android:label="Gallery"
         tools:layout="@layout/fragment_gallery">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/pagerPhotoFragment"
-        android:name="com.example.pagegallery.PagerPhotoFragment"
+        android:name="com.example.Home_step1.PagerPhotoFragment"
         android:label="fragment_pager_photo"
         tools:layout="@layout/fragment_pager_photo" />
 </navigation>

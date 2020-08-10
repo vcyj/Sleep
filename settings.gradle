@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Pagegallery"
+rootProject.name = "Home_step1"

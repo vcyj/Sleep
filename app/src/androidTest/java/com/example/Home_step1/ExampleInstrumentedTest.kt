@@ -1,4 +1,4 @@
-package com.example.pagegallery
+package com.example.Home_step1
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

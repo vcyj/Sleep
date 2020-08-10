@@ -1,4 +1,4 @@
-package com.example.pagegallery
+package com.example.Home_step1
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

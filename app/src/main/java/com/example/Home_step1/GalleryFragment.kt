@@ -1,6 +1,5 @@
-package com.example.pagegallery
+package com.example.Home_step1
 
-import android.R.attr
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -15,8 +14,6 @@ import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
 
 import kotlinx.android.synthetic.main.fragment_gallery.*
-import kotlinx.android.synthetic.main.looperpager_photo_view.*
-import kotlinx.android.synthetic.main.pager_photo_view.*
 import java.util.ArrayList
 
 

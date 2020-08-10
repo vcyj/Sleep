@@ -3,16 +3,16 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.example.pagegallery"
-        minSdkVersion 16
-        targetSdkVersion 29
+        applicationId "com.example.home_step1"
+        minSdkVersion 26
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        android.defaultConfig.vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -56,5 +56,11 @@ dependencies {
 
     implementation 'com.github.chrisbanes.photoview:library:1.2.4'
     implementation 'com.makeramen:roundedimageview:2.3.0'
+//retrofit网络请求
+
+    implementation 'com.squareup.okhttp3:okhttp:4.7.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
 }
